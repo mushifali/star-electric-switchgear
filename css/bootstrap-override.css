@@ -1,0 +1,35 @@
+.navbar-brand {
+    margin-top: 3px;
+    padding-right: 0px; /* to make the nav collapse correctly */
+}
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+.navbar-nav {
+    padding-right: 18px;
+    padding-left: 0px;
+}
+
+.navbar-nav > li > a {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover,.navbar-default .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > .active > a{
+    color: #29d9c2;
+    background-color: darkslategrey;
+    border-radius: 2px;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+        padding: 0;
+    }
+}
